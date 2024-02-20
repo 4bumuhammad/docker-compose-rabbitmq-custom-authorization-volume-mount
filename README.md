@@ -19,8 +19,8 @@
 ### Open Browser
     URL http://localhost:15673
 
-    user : abumuhammad
-    password : p4$$woRD123
+        - user : abumuhammad
+        - password : p4$$woRD123
 
 ---
 
