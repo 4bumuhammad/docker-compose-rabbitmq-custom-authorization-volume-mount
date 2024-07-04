@@ -124,3 +124,13 @@ Check baris perintah untuk RabbitMQ server
     root@cb1f27838dcd:/# rabbitmqctl --version
     3.13.4
 </pre>
+<pre>
+    root@cb1f27838dcd:/home# rabbitmqctl export_definitions ./backup-test/definition.json
+    Exporting definitions in JSON to a file at "./backup-test/definition.json" ...
+
+    root@cb1f27838dcd:/home# ls -lah backup-test/
+    total 12K
+    drwxr-xr-x 2 root root 4.0K Jul  4 11:44 .
+    drwxr-xr-x 1 root root 4.0K Jul  4 11:42 ..
+    -rw-r--r-- 1 root root  651 Jul  4 11:44 definition.json
+</pre>
