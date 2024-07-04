@@ -6,6 +6,26 @@
 
 ## 🪭 Docker Compose Rabbit MQ
 
+```bash
+mkdir -p docker-mount/rabbitmq
+```
+
+<pre>
+    version: "3"
+    services:
+      rabbitmq:
+        image: "rabbitmq:3-management"
+        container_name: "rabbitmq-management"
+        ports:
+          - "5673:5672"
+          - "15673:15672"
+        environment:
+          RABBITMQ_DEFAULT_USER: "abumuhammad"
+          RABBITMQ_DEFAULT_PASS: "password"
+        volumes:
+          - './docker-mount/rabbitmq:/var/lib/rabbitmq'
+</pre>
+
 Jalankan command pada Terminal :
 <pre>
 ❯ docker-compose up -d
