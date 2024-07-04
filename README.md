@@ -100,3 +100,27 @@ Open Browser
 
     8 directories, 24 files
 </pre>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+---
+
+Masuk ke dalam container.
+<pre>
+❯ docker exec -it rabbitmq-management /bin/bash
+</pre>
+Check baris perintah untuk RabbitMQ server
+<pre>
+    root@cb1f27838dcd:/# rabbitmqctl --version
+    3.13.4
+</pre>
