@@ -2,8 +2,9 @@
     <img src="./rabbitmq_logo.png" alt="rabbitmq_logo" style="display: block; margin: 0 auto;">
 </p>
 
-##🪭 Docker Compose Rabbit MQ
----
+&nbsp;
+
+## 🪭 Docker Compose Rabbit MQ
 
 Jalankan command pada Terminal :
 <pre>
@@ -16,7 +17,7 @@ Jalankan command pada Terminal :
     3ec0b90e8718   rabbitmq:3-management   Up 8 minutes   rabbitmq-management   4369/tcp, 5671/tcp, 15671/tcp, 15691-15692/tcp, 25672/tcp, 0.0.0.0:5673->5672/tcp, 0.0.0.0:15673->15672/tcp
 </pre>
 
-### Open Browser
+Open Browser
     URL http://localhost:15673
 
         - user : abumuhammad
