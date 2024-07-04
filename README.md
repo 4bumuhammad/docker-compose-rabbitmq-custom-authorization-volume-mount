@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./rabbitmq_logo.png" alt="rabbitmq_logo" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/rabbitmq_logo.png" alt="rabbitmq_logo" style="display: block; margin: 0 auto;">
 </p>
 
 &nbsp;
@@ -24,11 +24,11 @@ Open Browser
         - password : p4$$woRD123
 
 <p align="center">
-    <img src="./001_rabbitmq-authorization.png" alt="001_rabbitmq-authorization" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/001_rabbitmq-authorization.png" alt="rabbitmq-authorization" style="display: block; margin: 0 auto;">
 </p>
 
 <p align="center">
-    <img src="./002_rabbitmq-authorization.png" alt="002_rabbitmq-authorization" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/002_rabbitmq-authorization.png" alt="rabbitmq-authorization" style="display: block; margin: 0 auto;">
 </p>
 
 &nbsp;
