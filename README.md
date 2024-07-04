@@ -10,7 +10,10 @@
 mkdir -p docker-mount/rabbitmq
 ```
 
+🖋️ file docker-compose.yml
 <pre>
+❯ vim docker-compose.yml
+    . . .
     version: "3"
     services:
       rabbitmq:
