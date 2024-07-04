@@ -124,6 +124,7 @@ Check baris perintah untuk RabbitMQ server
     root@cb1f27838dcd:/# rabbitmqctl --version
     3.13.4
 </pre>
+Command : Export definitions ( backup konfigurasi )
 <pre>
     root@cb1f27838dcd:/home# rabbitmqctl export_definitions ./backup-test/definition.json
     Exporting definitions in JSON to a file at "./backup-test/definition.json" ...
