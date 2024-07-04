@@ -24,7 +24,7 @@ mkdir -p docker-mount/rabbitmq
           - "15673:15672"
         environment:
           RABBITMQ_DEFAULT_USER: "abumuhammad"
-          RABBITMQ_DEFAULT_PASS: "password"
+          RABBITMQ_DEFAULT_PASS: "p4$$woRD123"
         volumes:
           - ${PWD}/docker-mount/rabbitmq:/var/lib/rabbitmq
 </pre>
