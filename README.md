@@ -26,7 +26,7 @@ mkdir -p docker-mount/rabbitmq
           RABBITMQ_DEFAULT_USER: "abumuhammad"
           RABBITMQ_DEFAULT_PASS: "password"
         volumes:
-          - './docker-mount/rabbitmq:/var/lib/rabbitmq'
+          - ${PWD}/docker-mount/rabbitmq:/var/lib/rabbitmq
 </pre>
 
 Jalankan command pada Terminal :
