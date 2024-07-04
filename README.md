@@ -23,12 +23,6 @@ Open Browser
         - user : abumuhammad
         - password : p4$$woRD123
 
-&nbsp;
-
-&nbsp;
-
----
-
 <p align="center">
     <img src="./001_rabbitmq-authorization.png" alt="001_rabbitmq-authorization" style="display: block; margin: 0 auto;">
 </p>
@@ -37,11 +31,15 @@ Open Browser
     <img src="./002_rabbitmq-authorization.png" alt="002_rabbitmq-authorization" style="display: block; margin: 0 auto;">
 </p>
 
+&nbsp;
+
+&nbsp;
+
 ---
 
-### struktur files :
-
-    ❯ tree -a -L 5 -I 'README.md' -I '*.png' -I '.DS_Store'
+### Struktur files :
+<pre>
+❯ tree -a -L 5 -I 'README.md' -I '*.png' -I '.DS_Store'
 
     .
     ├── docker-compose.yml
@@ -78,4 +76,4 @@ Open Browser
                 └── rabbit@3ec0b90e8718.pid
 
     8 directories, 24 files
----
+</pre>
