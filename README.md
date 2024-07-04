@@ -24,7 +24,7 @@ mkdir -p docker-mount/rabbitmq
           - "15673:15672"
         environment:
           RABBITMQ_DEFAULT_USER: "abumuhammad"
-          RABBITMQ_DEFAULT_PASS: "p4$$woRD123"
+          RABBITMQ_DEFAULT_PASS: "password123"
         volumes:
           - ${PWD}/docker-mount/rabbitmq:/var/lib/rabbitmq
 </pre>
@@ -44,7 +44,7 @@ Open Browser
     URL http://localhost:15673
 
         - user : abumuhammad
-        - password : p4$$woRD123
+        - password : password123
 
 <p align="center">
     <img src="./gambar-petunjuk/001_rabbitmq-authorization.png" alt="rabbitmq-authorization" style="display: block; margin: 0 auto;">
