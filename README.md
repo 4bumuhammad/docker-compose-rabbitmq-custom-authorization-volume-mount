@@ -31,7 +31,7 @@ mkdir -p docker-mount/rabbitmq
 
 <details>
     <summary>Opsional jika ingin sekaligus menambahkan Plugin pada rabbitmq</summary>
-    ```bash
+    <pre>
     version: "3"
     services:
       rabbitmq:
@@ -46,7 +46,7 @@ mkdir -p docker-mount/rabbitmq
           RABBITMQ_PLUGINS: "rabbitmq_management rabbitmq_consistent_hash_exchange rabbitmq_federation rabbitmq_delayed_message_exchange"
         volumes:
           - ${PWD}/docker-mount/rabbitmq:/var/lib/rabbitmq
-    ```
+    </pre>
 </details>
 
 Jalankan command pada Terminal :
