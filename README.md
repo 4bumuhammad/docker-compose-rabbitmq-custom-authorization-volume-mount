@@ -29,6 +29,26 @@ mkdir -p docker-mount/rabbitmq
           - ${PWD}/docker-mount/rabbitmq:/var/lib/rabbitmq
 </pre>
 
+<details>
+    <summary>Opsional jika ingin sekaligus menambahkan Plugin pada rabbitmq</summary>
+    ```bash
+    version: "3"
+    services:
+      rabbitmq:
+        image: "custom-rabbitmq:latest"
+        container_name: "rabbitmq-management"
+        ports:
+          - "5673:5672"
+          - "15673:15672"
+        environment:
+          RABBITMQ_DEFAULT_USER: "abumuhammad"
+          RABBITMQ_DEFAULT_PASS: "password123"
+          RABBITMQ_PLUGINS: "rabbitmq_management rabbitmq_consistent_hash_exchange rabbitmq_federation rabbitmq_delayed_message_exchange"
+        volumes:
+          - ${PWD}/docker-mount/rabbitmq:/var/lib/rabbitmq
+    ```
+</details>
+
 Jalankan command pada Terminal :
 <pre>
 ❯ docker-compose up -d
