@@ -30,7 +30,7 @@ mkdir -p docker-mount/rabbitmq
 </pre>
 
 <details>
-    <summary>Opsional jika ingin sekaligus menambahkan Plugin pada rabbitmq</summary>
+    <summary>Opsional: jika ingin sekaligus menambahkan Plugin pada rabbitmq</summary>
     <pre>
     ❯ vim docker-compose.yml
         . . .
