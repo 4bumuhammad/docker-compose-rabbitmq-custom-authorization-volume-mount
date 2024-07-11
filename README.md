@@ -37,7 +37,7 @@ mkdir -p docker-mount/rabbitmq
         version: "3"
         services:
           rabbitmq:
-            image: "custom-rabbitmq:latest"
+            image: "rabbitmq:3-management"
             container_name: "rabbitmq-management"
             ports:
               - "5673:5672"
